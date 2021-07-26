@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group11.rentacar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".AfterPaymentActivity" />
+        <activity
+            android:name=".EditFaqActivity"
+            android:label="@string/title_activity_edit_faq"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FaqActivity"
+            android:label="Faq" />
+        <activity
+            android:name=".CreateFaqActivity"
+            android:label="Create Faq" />
+        <activity
+            android:name=".EditActivity"
+            android:label="Edit"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="Welcome" />
+        <activity
+            android:name=".listfaq"
+            android:label="Welcome" />
+        <activity
+            android:name=".VehicleActivity"
+            android:label="Car" />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="Payment" />
+        <activity
+            android:name=".BookingActivity"
+            android:label="Book Vehicle"
+            />
+        <activity
+            android:name=".AddVehicleActivity"
+            android:label="Add Vehicle"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
